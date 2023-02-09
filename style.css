@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: black;
+    background-color: white;
+    padding: 0.5rem;
+}
+
+nav {
+    text-align: center;
+    font-size: 1rem;
+    line-height: 2rem;
+    margin: 0 auto 1rem;
+    max-width: 1000px;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    color: black;
+    padding: 1.5rem;
+    margin: 1.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: black;
+    padding: 1.5rem;
+    margin: 1.5rem;
+}
+
+p{
+    text-align: left;
+    width: 700px;
+    line-height: 1.6;
+    font-size: 1rem;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(60, 129, 218);
+}
+
+a:active {
+    color: red;
+}
+
+ul {
+    list-style-position: center;
+    list-style-type: disc;
+    line-height: 1.5;
+    color: rgb(7, 108, 162);
+}
+
+ol {
+    list-style-position: center;
+    list-style-type: none;
+    color: rgb(7, 108, 162);
+    background-color: rgb(173, 197, 219);
+    padding: 0.5rem;
+    margin: 0;
+}
+
+ol li {
+    display: inline-block;
+    margin-inline: 0.8rem;
+}
+
+.homepagetext {
+    text-align: center;
+    width: 540px;
+}
+
