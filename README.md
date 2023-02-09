@@ -1,2 +1,0 @@
-# lincolnadomako-github.io
-Website
