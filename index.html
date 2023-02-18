@@ -6,25 +6,147 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NYUAD Arts Center</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/js/all.min.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 </head>
-
 <body>
-    <nav> 
-        <ol class="navbar">
-            <li><a href="/index.html">NYUAD Arts Center</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="studios.html">Studios & Labs</a></li>
-            <li><a href="theaters.html">Theaters</a></li>
-            <li><a href="artgallery.html">The Art Gallery</a></li>
-        </ol>
-     </nav>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpeg" alt="" class="logo"></a>
+            <div class="nav-links">
+                <i class="fa fa-times menu-icons" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="academics.html">Academic &nbsp;Programs</a></li>
+                    <li><a href="studios.html">Studios & Labs</a></li>
+                    <li><a href="theaters.html">Theaters & Venues</a></li>
+                    <li><a href="artgallery.html">The Art Gallery</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars menu-icons" onclick="showMenu()"></i>
+        </nav>
+    <div class="text-box">
+        <h1>Explore Facilities and Programs <br>Available at NYUAD Arts Center</h1>
+        <p>Browse the various facilities and degree programs offered by the <br>NYUAD Arts Center and learn more about admission requirements, <br>scholarships, and financial aid opportunities.
+        </p>
+        <a href="video.html" class="text-box-button">VIDEO TOUR</a>
+    </div>        
+    </section>
 
-    <header>
+    <!----------------Motto--------------->
+
+    <section class="motto">
         <h1> NYUAD ARTS CENTER </h1>
-    </header>
-    <p class="homepagetext">A beacon of inspiration, where performance, education, and community
-        come together to explore infinite possibilities.
-    </p>
-</body>
+        <p> A beacon of inspiration, where performance, education, and community <br> 
+            come together to explore infinite possibilities.
 
+            <div class="row1">
+                <div class="motto-col">
+                    <h3>About Us</h3>
+                    <p>The Arts Center at NYU Abu Dhabi is a cultural hub for Abu Dhabi and the UAE that hosts major events and arts programming throughout the year. The Arts Center provides facilities for theater, music, film, visual arts, and interactive media activation through its state-of-the-art facilities and professional production crew.</p>
+                </div>
+                <div class="motto-col">
+                    <h3>Mission & Vision</h3>
+                    <p>Showcasing music, theater, dance, film, poetry, family programs, and interdisciplinary performances that defy definition, The Arts Center at NYU Abu Dhabi presents distinguished professional artists from around the world alongside student, faculty, and community productions.</p>
+                </div>  
+                <div class="motto-col">
+                    <h3>Core Values</h3>
+                    <p>The Arts Center creates a dynamic space for research and investigation, encouraging the active pursuit of knowledge for students and artists. Excellence, collaboration, creativity, accessibility, innovation, respect, and understanding are The Arts Center’s core values.
+                    </p>
+                </div>      
+            </div>
+    </section>
+
+<!----------------------Explore More------------------------>
+
+<section class="explore">
+    <h1>Explore More</h1>
+    <p>The Arts Center is a place for discovery and for new inspiration. <br> Know more about The Arts Center</p>
+</section>
+
+<!----------------------Images with Overlay------------------------>
+
+<section class="imageLinks">
+    <div class="flex-container">
+        <div class="container">
+            <img src="images/acd.jpg" alt="" class="image">
+            <a href="academics.html"><div class="overlay"> 
+              <div class="text">Academic Programs</div>
+            </div></a>
+        </div>
+
+        <div class="container">
+            <img src="images/fes.jpeg" alt="Avatar" class="image">
+            <a href="studios.html"></a><div class="overlay">
+              <div class="text">Studios & Labs</div>
+            </div></a>
+        </div>
+
+        <div class="container">
+            <img src="images/dog.jpg" alt="Avatar" class="image">
+            <a href="theaters.html"></a><div class="overlay">
+              <div class="text">Theaters & Venues</div>
+            </div></a>
+        </div>
+
+        <div class="container">
+            <img src="images/art.webp" alt="Avatar" class="image">
+            <a href="artgallery.html"></a><div class="overlay">
+                <div class="text">The Art Gallery</div>
+            </div></a>
+        </div>
+    </div>
+</section>
+
+<!-------------------Call To Action--------------------->
+
+<section class="cta">
+    <h2>Apply to NYUAD Now <br> and Enroll for our Various Arts Courses</h2>
+    <a href="" class="hero-btn">APPLY NOW</a>
+</section>
+
+<!------------------Footer------------------->
+<footer class="footer">
+        <div class="row">
+            <div class="footer-col">
+                <h4>Contact Us</h4>
+                <ul>
+                    <li>Tel: 0507088937</li>
+                    <li>Email: lna279@nyu.edu</li>
+                    <li>Mail: P.O. Box 129188 <br> Saadiyat Island, Abu Dhabi, <br> United Arab Emirates</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Helpful Links</h4>
+                <ul>
+                    <li><a href="#">Maps & Directions</a></li>
+                    <li><a href="#">Virtual Tour</a></li>
+                    <li><a href="#">Book A Visit</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Website Accessibility</h4>
+                <ul>
+                    <li><a href="#">Accessibility Features</a></li>
+                    <li><a href="#">Moses Center</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="#"> <i class="fab fa-facebook-f"></i></a>
+                    <a href="#"> <i class="fab fa-twitter"></i></a>
+                    <a href="#"> <i class="fab fa-instagram"></i></a>
+                    <a href="#"> <i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+</footer>
+       
+<!---------------JavaScript for Toggle Menu------------------>
+
+    <script src="script.js">
+    </script>
+</body>
 </html>
