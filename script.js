@@ -34,3 +34,11 @@ let slideIndex = 1;
     slides[slideIndex-1].style.display = "block";
     dots[slideIndex-1].className += " active";
     }
+
+function backgroundColor(elem){
+    // event.preventDefault();
+    console.log("Came here");
+    oldElem = document.getElementById('currID');
+    oldElem.removeAttribute('id');
+    elem.setAttribute('id', 'currID');
+}

@@ -96,9 +96,14 @@ nav {
 }
 .nav-links ul li a:active {
     border-bottom: 2px solid #f44336;
+    width: 100%;
 }
 nav .fa{
     display: none;
+}
+#currID{
+    border-bottom: 2px solid #f44336;
+    width: 100%;
 }
 
 /* -----Menu Icon------ */
@@ -512,7 +517,20 @@ nav .fa{
     text-align: left;
     padding-top: 60px;
 }
-
+.theaters h2 {
+    font-size: 32px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+.theaters p {
+    color: rgb(81, 81, 81);
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 2;
+    text-align: left;
+    margin-bottom: 60px;
+    width: 60%;
+}
 /* ---------------Art Gallery----------------- */
 
 .subheader4 {
@@ -524,10 +542,24 @@ nav .fa{
     position: relative;
 }
 .artgallery {
-    width: 50%;
+    width: 70%;
     margin: auto;
     text-align: left;
     padding-top: 100px;
+}
+.artgallery h2 {
+    font-size: 32px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+.artgallery p {
+    color: rgb(81, 81, 81);
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 2;
+    text-align: left;
+    margin-bottom: 60px;
+    width: 60%;
 }
 
 /* ---------------video--------------- */
