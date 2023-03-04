@@ -18,13 +18,3 @@ body {
     font-size: 30px;
     font-weight: 500;
   }
-
-  /* Styles for screens smaller than 768 pixels */
-  @media (max-width: 768px) {
-    #textbox {
-      position: static;
-      text-align: center;
-      font-size: 16px;
-      margin-top: 20px;
-    }
-}
